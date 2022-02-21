@@ -1,6 +1,6 @@
 {
-  "name": "moment-guess",
-  "version": "1.2.4",
+  "name": "@gristlabs/moment-guess",
+  "version": "1.2.4-grist.1",
   "description": "A utility package for guessing date's format",
   "homepage": "https://github.com/apoorv-mishra/moment-guess#readme",
   "repository": {
@@ -41,6 +41,6 @@
   },
   "files": [
     "bin",
-    "dist/bundle.esm.js"
+    "dist"
   ]
 }
