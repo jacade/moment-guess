@@ -14,7 +14,7 @@ export default [{
 			sourcemap: true,
 		},
 		{
-			file: "dist/bundle.esm.cjs",
+			file: "dist/bundle.esm.js",
 			format: 'es',
 			name: 'MomentGuess',
 			sourcemap: true,
