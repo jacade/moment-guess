@@ -1,20 +1,20 @@
 {
   "name": "@jacade/moment-guess",
   "type": "module",
-  "version": "1.2.4-jcd.1",
+  "version": "1.2.4-jcd.2",
   "description": "A utility package for guessing date's format",
-  "homepage": "https://github.com/apoorv-mishra/moment-guess#readme",
+  "homepage": "https://github.com/jacade/moment-guess#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apoorv-mishra/moment-guess.git"
+    "url": "git+https://github.com/jacade/moment-guess.git"
   },
   "bugs": {
-    "url": "https://github.com/apoorv-mishra/moment-guess/issues"
+    "url": "https://github.com/jacade/moment-guess/issues"
   },
-  "main": "dist/bundle.js",
-  "module": "dist/bundle.esm.js",
+  "main": "dist/bundle.cjs",
+  "module": "dist/bundle.esm.cjs",
   "bin": {
-    "moment-guess": "bin/bundle.cmd.js"
+    "moment-guess": "bin/bundle.cmd.cjs"
   },
   "scripts": {
     "test": "jest",
