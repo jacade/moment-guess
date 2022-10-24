@@ -8,13 +8,13 @@ export default [{
 	input: './src/index.ts',
 	output: [
 		{
-			file: "dist/bundle.js",
+			file: "dist/bundle.cjs",
 			format: 'cjs',
 			name: 'MomentGuess',
 			sourcemap: true,
 		},
 		{
-			file: "dist/bundle.esm.js",
+			file: "dist/bundle.esm.cjs",
 			format: 'es',
 			name: 'MomentGuess',
 			sourcemap: true,
@@ -28,7 +28,7 @@ export default [{
 	input: './src/index.ts',
 	output: [
 		{
-			file: "bin/bundle.cmd.js",
+			file: "bin/bundle.cmd.cjs",
 			format: 'cjs',
 			name: 'MomentGuess',
 			banner: '#!/usr/bin/env node',
